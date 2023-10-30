@@ -1,0 +1,9 @@
+#include<iostream.h>
+void main()
+{
+int a=20;
+int &n=a;
+n=a++;
+a=n++;
+cout<<a<<"",<<n<<endl;
+}
