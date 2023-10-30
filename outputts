@@ -1,0 +1,7 @@
+#include<iostream.h>
+#include<string.h>
+void main()
+{
+    cout<<strlen("hello, world .\n")<<"\n";
+}
+
