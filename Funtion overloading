@@ -1,0 +1,66 @@
+#include <iostream>
+
+using namespace std;
+
+class function_overloading
+
+{
+
+    public:
+
+    void sum(int a, int b)
+
+    {
+
+        int total;
+
+        total=a+b;
+
+        cout<<"Sum value is="<<total<<endl;
+
+    }
+
+    void sum(int a, int b, int c)
+
+    {
+
+        int total;
+
+        total=a+b+c;
+
+        cout<<"Sum value is="<<total<<endl;
+
+    }
+
+    
+
+    void sum(float d, float e)
+
+    {
+
+        float total;
+
+        total=d+e;
+
+        cout<<"Sum value is="<<total;
+
+    }
+
+};
+
+
+
+int main()
+
+{
+
+    function_overloading f1;
+
+    f1.sum(10,20);
+
+    f1.sum(10,20,30);
+
+    f1.sum(10.5f,20.4f);
+
+}
+
